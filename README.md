@@ -1,4 +1,3 @@
-# Cookie-Clicker-Reborn
 <h1>Fancy tellin' me what you are doing here mister?</h1>
 With the knowledge from the previous disaster, a new version that will probably not be finished, rises from the ashes.
 
