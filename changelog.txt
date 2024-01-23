@@ -1,0 +1,2 @@
+22-23/01/2024:
+- Basic JS and CSS, and that's basically it 
