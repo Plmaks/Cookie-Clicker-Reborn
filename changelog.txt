@@ -1,2 +1,6 @@
 22-23/01/2024:
 - Basic JS and CSS, and that's basically it 
+
+24/01/2024:
+- Can now buy workers and upgrades
+- Minor css adjustments

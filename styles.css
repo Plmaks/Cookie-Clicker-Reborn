@@ -22,12 +22,14 @@ button {
 }
 
 .Factory {
+    text-align: center;
     flex-direction: column;
     border: black 4px solid;
     width: 50%;
 }
 
 .Upgrades {
+    text-align: center;
     flex-direction: column;
     border: black 4px solid;
     width: 30%;
@@ -45,4 +47,10 @@ button {
     margin-left: 10px; margin-right: 10px;
     padding: 10px; 
     border: cyan 2px solid
+}
+
+.workers {
+    margin-left: 10px; margin-right: 10px;
+    border: cyan 2px solid;
+    text-align: left;
 }
