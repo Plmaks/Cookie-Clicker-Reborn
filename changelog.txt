@@ -4,3 +4,10 @@
 24/01/2024:
 - Can now buy workers and upgrades
 - Minor css adjustments
+
+26/01/2024:
+- Added new upgrades
+- Minor HTML adjustments
+- Added hotkeys
+- Added more images
+- Added more funnies to the code

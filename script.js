@@ -16,6 +16,8 @@ let Sweettreat_worker = 0
 let Goldfish_worker = 0
 let Honestlie_worker = 0
 let Watercolour_worker = 0
+// le funny
+let boobs = 80085
 // The part of the code that allows you to... Get this, earn cookies :o
 function Cookie() {
     amount += power
@@ -27,6 +29,22 @@ function charge(cost) {
     amount -= cost
     document.getElementById("cookies").innerHTML = amount
 }
+// Hotkeys
+function Getkey(Pressed) {
+    Key = Pressed.key
+    
+    switch (Key) {
+        case " ":
+            Cookie()
+            break;
+        default:
+            console.log(Key)
+            break;
+    }
+
+    return Key
+}
+
 // Shop function a.k.a giant switch statement clusterfuck
 function Shop(upg_num, cost_num) {
     amount = parseFloat(document.getElementById("cookies").innerHTML)
@@ -34,106 +52,106 @@ function Shop(upg_num, cost_num) {
     if (amount >= cost) {
         switch (upg_num) {
             case 1:
-                Seabird_worker += 1
+                Seabird_worker += 1                                                                      /*Placeholder no more!*/
                 document.getElementById("Seabird-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
                 
                 charge(cost)
                 Seabird()
                 break;
             case 2:
-                Groupie_worker += 1                                                                           /*Placeholder rn*/
-                document.getElementById("Groupie-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                Groupie_worker += 1                                                                           
+                document.getElementById("Groupie-section").innerHTML += "<img width='75px' height='75px' src='img/Groupie.png'>"
                 
                 charge(cost)
                 Groupie()
                 break;
             case 3:
                 Seadrive_worker += 1
-                document.getElementById("Seadrive-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Seadrive-section").innerHTML += "<img width='75px' height='75px' src='img/Seadrive.png'>"
                 
                 charge(cost)
                 Seadrive()
                 break;
             case 4:
                 Convict_worker += 1
-                document.getElementById("Convict-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Convict-section").innerHTML += "<img width='75px' height='75px' src='img/Convict.png'>"
                 
                 charge(cost)
                 Convict()
                 break;
             case 5:
                 Vince_worker += 1
-                document.getElementById("Vince-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Vince-section").innerHTML += "<img width='75px' height='75px' src='img/Vince.png'>"
                 
                 charge(cost)
                 Vince()
                 break;
             case 6:
                 Crazycat_worker += 1
-                document.getElementById("Crazycat-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Crazycat-section").innerHTML += "<img width='75px' height='75px' src='img/Crazycat.png'>"
                 
                 charge(cost)
                 Crazycat()
                 break;
             case 7:
                 Tetra_worker += 1
-                document.getElementById("Tetra-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Tetra-section").innerHTML += "<img width='75px' height='75px' src='img/Tetra.png'>"
                 
                 charge(cost)
                 Tetra()
                 break;
             case 8:
                 Routine_worker += 1
-                document.getElementById("Routine-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Routine-section").innerHTML += "<img width='75px' height='75px' src='img/Routine.png'>"
                 
                 charge(cost)
                 Routine()
                 break;
             case 9:
                 Clownfish_worker += 1
-                document.getElementById("Clownfish-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Clownfish-section").innerHTML += "<img width='75px' height='75px' src='img/Clownfish.png'>"
                 
                 charge(cost)
                 Clownfish()
                 break;
             case 10:
                 Wildflower_worker += 1
-                document.getElementById("Wildflower-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Wildflower-section").innerHTML += "<img width='75px' height='75px' src='img/Wildflower.png'>"
                 
                 charge(cost)
                 Wildflower()
                 break;
             case 11:
                 Papercraft_worker += 1
-                document.getElementById("Papercraft-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Papercraft-section").innerHTML += "<img width='75px' height='75px' src='img/Papercraft.png'>"
                 
                 charge(cost)
                 Papercraft()
                 break;
             case 12:
                 Sweettreat_worker += 1
-                document.getElementById("Sweettreat-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Sweettreat-section").innerHTML += "<img width='75px' height='75px' src='img/Sweettreat.png'>"
                 
                 charge(cost)
                 Sweettreat()
                 break;
             case 13:
                 Goldfish_worker += 1
-                document.getElementById("Goldfish-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Goldfish-section").innerHTML += "<img width='75px' height='75px' src='img/Goldfish.png'>"
                 
                 charge(cost)
                 Goldfish()
                 break;
             case 14:
                 Honestlie_worker += 1
-                document.getElementById("Honestlie-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Honestlie-section").innerHTML += "<img width='75px' height='75px' src='img/Honestlie.png'>"
                 
                 charge(cost)
                 Honestlie()
                 break;
             case 15:
                 Watercolour_worker += 1
-                document.getElementById("Watercolour-section").innerHTML += "<img width='75px' height='75px' src='img/seabird.png'>"
+                document.getElementById("Watercolour-section").innerHTML += "<img width='75px' height='75px' src='img/Watercolour.png'>"
                 
                 charge(cost)
                 Watercolour()
@@ -141,10 +159,32 @@ function Shop(upg_num, cost_num) {
             case 16:
                 console.log("Uhhh... Selfish currently not implemented")
                 break;
-            // It is the upgrades, Camarade!
+            // It is the upgrades, Camarade! Remember, 5 unique upgrades with 5 levels per worker + your mouse cuz y not
             case 17: // Higher clicking power
                 power += 1
                 
+                charge(cost)
+                break;
+            case 18: // Double Trouble 
+                power = power * 2
+
+                charge(cost)
+                break;
+            case 19: // Exponent bonus 
+                power = power ** 1.1
+
+                charge(cost)
+                break;
+            case 20: // Spacebar unlock
+                document.addEventListener("keydown", Getkey)
+                document.getElementById("spacebar_purchase").style.visibility = "hidden"
+
+                charge(cost)
+                break;
+            case 21: // Gambler's luck
+                document.getElementById("cookie").onclick += "Gamble()"
+                document.getElementById("gambling_purchase").style.visibility = "hidden" 
+
                 charge(cost)
                 break;
         }
@@ -222,7 +262,7 @@ function Wildflower() {
     }
 }
 function Papercraft() {
-    if (69/420 != true) {
+    if (boobs == 80085) {
         amount += Papercraft_worker * 11
         document.getElementById("cookies").innerHTML = amount
         setTimeout(Papercraft, 1000)

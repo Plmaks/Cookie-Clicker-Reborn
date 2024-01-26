@@ -10,7 +10,7 @@
 <body>
     <div class="Manual">
         <h1>You have <span id="cookies">0</span> cookies!</h1>
-        <img src="img/cookie.png" onclick="Cookie()">
+        <img id="cookie" src="img/cookie.png" onclick="Cookie()">
     </div>
 
     <div class="Factory">
@@ -57,6 +57,10 @@
         </div>
         <div class="upgrade-wrapper">
             <button onclick="Shop(17, 'cost17')">Higher clicking power [<span id="cost17">50</span> cookies]</button>
+            <button onclick="Shop(18, 'cost18')">Double Trouble [<span id="cost18">50</span> cookies]</button>
+            <button onclick="Shop(19, 'cost19')">Exponential clicking bonus [<span id="cost19">50</span> cookies]</button>
+            <button id="spacebar_purchase" onclick="Shop(20, 'cost20')">Unlock the <strong>SPACEBAR</strong> [<span id="cost20">50</span> cookies]</button>
+            <button id="gambling_purchase" onclick="Shop(21, 'cost21')">Gambler's Luck [<span id="cost21">50</span> cookies]</button>
         </div>
     </div>
 </body>
